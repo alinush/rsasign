@@ -18,6 +18,6 @@ hex2bin() {
 
 file=$1
 key=${2-"$script_dir/../bin/keys/rsa512.key"}
-cat $file | openssl dgst -binary -sha256 >hash
-openssl rsautl -in hash -inkey $key -sign | bin2hex
-rm hash
+#cat $file | openssl dgst -binary -sha256 >hash
+#openssl rsautl -in hash -inkey $key -sign | bin2hex
+#rm hash
