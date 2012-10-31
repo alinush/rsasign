@@ -1,5 +1,4 @@
 RSA sign 1.0, by Alin Tomescu
-
 tomescu.alin@gmail.com
 http://alinush.is-great.org
 
