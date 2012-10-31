@@ -2,7 +2,7 @@ RSA sign 1.0, by Alin Tomescu
 tomescu.alin@gmail.com
 http://alinush.is-great.org
 
-Hello, I wrote this program for fun in a few days in which I was eating at the local Chipotle in Brooklyn Heights.
+I wrote this program for fun in a few days, mostly while eating at the local Chipotle in Brooklyn Heights :)
 
 "RSA sign" is an easy to use tool that can digitally sign a piece of text or a file using a given RSA key.
 
