@@ -11,8 +11,7 @@ Enjoy!
 To build:
 =========
 ```
- $ cd rsasign/
- $ cd src/
+ $ cd rsasign/src/
  $ make
  $ cd ../bin
  $ rsasign --help
@@ -21,13 +20,10 @@ To build:
 To test:
 ========
  ```
- $ cd rsasign/
- $ cd test/
- $ cd bvt/
+ $ cd rsasign/test/bvt/
  $ make
  $ test-rsasign
- $ cd ..
- $ cd func
+ $ cd ../func
  $ ./args.sh
  $ ./func.sh
  $ ./fuzzy.sh
