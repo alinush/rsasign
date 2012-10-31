@@ -10,14 +10,17 @@ Enjoy!
 
 To build:
 =========
+```
  $ cd rsasign/
  $ cd src/
  $ make
  $ cd ../bin
  $ rsasign --help
+```
 
 To test:
 ========
+ ```
  $ cd rsasign/
  $ cd test/
  $ cd bvt/
@@ -28,8 +31,11 @@ To test:
  $ ./args.sh
  $ ./func.sh
  $ ./fuzzy.sh
+ ```
 
 Use guide:
 ==========
 Pretty straightforword, just look at:
+```
  $ rsasign --help
+```
