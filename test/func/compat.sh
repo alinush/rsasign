@@ -27,4 +27,8 @@ done
 
 cd $orig_dir
 
+echo 
+echo "All done. OpenSSL seems to be compatible with rsasign."
+echo 
+
 set +e
