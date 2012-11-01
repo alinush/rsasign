@@ -81,3 +81,12 @@ function generate_keys() {
 	        exit 1
 	fi
 }
+
+function random_text() {
+        head -c $1 /dev/urandom | tr -dc '[:print:]'
+}
+
+function random_file() {
+        dd if=/dev/urandom of=$1 bs=1024 count=$2 &>/dev/null
+}
+

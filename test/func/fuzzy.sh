@@ -8,14 +8,6 @@ print_welcome "rsasign test suite, fuzzy functional tests"
 build_rsasign "$script_dir/../../src"
 generate_keys "$script_dir/keys"
 
-function random_text() {
-	head -c $1 /dev/urandom | tr -dc '[:print:]'
-}
-
-function random_file() {
-	dd if=/dev/urandom of=$1 bs=1024 count=$2 &>/dev/null
-}
-
 cd $script_dir/../../bin
 
 num_iter=${1-8}
