@@ -27,6 +27,7 @@ To test:
  $ ./args.sh
  $ ./func.sh
  $ ./fuzzy.sh
+ $ ./compat.sh
  ```
 
 Use guide:
