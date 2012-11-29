@@ -1,13 +1,11 @@
 RSA sign 1.0
 ============
-tomescu.alin@gmail.com
-http://alinush.is-great.org
-
 I wrote this program for fun in a few days, mostly while eating at the local Chipotle in Brooklyn Heights :)
 
 "RSA sign" is an easy to use tool that can digitally sign a piece of text or a file using a given RSA key.
 
 Enjoy!
+http://alinush.is-great.org
 
 To build:
 =========
