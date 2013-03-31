@@ -5,7 +5,7 @@ I wrote this program for fun in a few days, mostly while eating at the local Chi
 "RSA sign" is an easy to use tool that can digitally sign a piece of text or a file using a given RSA key.
 
 Enjoy!  
-http://alinush.is-great.org
+http://alinush.org
 
 To build:
 =========
